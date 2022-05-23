@@ -4,5 +4,8 @@ export default {
     outDir: '../docs',
     server: {
         open: true
+    },
+    build: {
+        outDir: '../dist'
     }
 }
