@@ -6,7 +6,7 @@ function buildQuiz() {
         let questionNumberInc = questionNumber + 1;
         for (letters in currentQuestion.answers) {
             answers.push(
-                `<label class="bg-gray-200 p-3 rounded-sm hover:shadow-md"><input type="radio" name="question${questionNumberInc}" class="mr-4" value="${letters}">
+                `<label class="selection hover:shadow-md"><input type="radio" name="question${questionNumberInc}" class="mr-4" value="${letters}">
               ${letters}: ${currentQuestion.answers[letters]}
           </label>`
             )

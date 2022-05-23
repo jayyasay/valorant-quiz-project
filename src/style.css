@@ -8,3 +8,9 @@
         /* font-family: 'Ubuntu', sans-serif; */
     }
 }
+
+@layer components {
+    .selection {
+        @apply bg-gray-200 p-3 rounded-sm
+    }
+}
